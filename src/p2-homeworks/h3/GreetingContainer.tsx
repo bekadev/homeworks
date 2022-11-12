@@ -33,7 +33,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         //2 - вывести имя которые мы ввели в инпут
         //addUserCallback
         addUserCallback(name)
-        alert(setNameCallback) // need to fix
+        alert(`Hello ${name}`) // need to fix
     }
 
     const onEnter = (e: KeyboardEvent<HTMLInputElement>) => {

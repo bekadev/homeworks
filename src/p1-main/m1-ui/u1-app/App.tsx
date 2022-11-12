@@ -4,12 +4,32 @@ import HW1 from '../../../p2-homeworks/h1/HW1'
 import HW2 from "../../../p2-homeworks/h2/HW2";
 import HW3 from "../../../p2-homeworks/h3/HW3";
 
+
 function App() {
+    const styeTitle = {
+        fontStyle: 'normal',
+        fontWeight: '600',
+        fontSize: '22px',
+        lineHeight: '27px',
+        color: '#000000'
+    }
+    const styleArow = {
+        border: '1px solid #D9D9D9',
+        marginBottom: '20px',
+        marginTop: '20px'
+    }
     return (
         <div className={s.App}>
-            <div>react homeworks:</div>
+            <div style={styeTitle}>Hometask № 1</div>
+            <div style={styleArow}></div>
             <HW1/>
+            <div style={styleArow}></div>
+            <div style={styeTitle}>Hometask № 2</div>
+            <div style={styleArow}></div>
             <HW2/>
+            <div style={styleArow}></div>
+            <div style={styeTitle}>Hometask № 3</div>
+            <div style={styleArow}></div>
             <HW3/>
             {/*<HW4/>*/}
             {/*<HW5/>*/}

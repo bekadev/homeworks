@@ -1,3 +1,85 @@
 .someClass {
 
 }
+
+.all {
+    padding: 5px 15px;
+    width: 49px;
+    height: 30px;
+    background: #0066CC;
+    border-radius: 15px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 24px;
+}
+.high {
+    padding: 5px 15px;
+    width: 65px;
+    height: 30px;
+    border: 1.5px solid #CC0000;
+    border-radius: 15px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #CC0000;
+    margin-right: 24px;
+}
+.low {
+    padding: 5px 15px;
+    width: 60px;
+    height: 30px;
+    border: 1.5px solid #00CC22;
+    border-radius: 15px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00CC22;
+}
+.middle {
+    padding: 5px 15px;
+    width: 80px;
+    height: 30px;
+    border: 1.5px solid #CC9C00;
+    border-radius: 15px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #CC9C00;
+    margin-right: 24px;
+}
+.item {
+    position: relative;
+    width: 155px;
+    height: 30px;
+    /*padding: 10px 124px 10px 14px;*/
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.btn_delete {
+    font-weight: bold;
+    width: 22px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+}
