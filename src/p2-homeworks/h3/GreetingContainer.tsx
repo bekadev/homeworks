@@ -25,7 +25,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             setError('')
         } else {
             setName('')
-            setError('name is reqquire')
+            setError('')
         }
     }
     const addUser = () => {
@@ -34,6 +34,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         //addUserCallback
         addUserCallback(name)
         alert(`Hello ${name}`) // need to fix
+        setName('')
     }
 
     const onEnter = (e: KeyboardEvent<HTMLInputElement>) => {

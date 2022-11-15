@@ -15,17 +15,21 @@ const Greeting: React.FC<GreetingPropsType> = ({addUser, error,name,setNameCallb
     const inputClass = error ? s.error : s.someClass // need to fix with (?:)
 
     return (
-        <div>
+        <div className={s.input}>
+            <div>
+                <span className={s.span_people}>Людей добавили: {totalUsers}</span>
+            </div>
+
             <input
                 value={name}
                 onChange={setNameCallback}
-                className={error ? inputClass : ''}
+                className={s.error}
                 onKeyDown={onEnter}
                 onBlur={setNameCallback}
             />
             <span>{error}</span>
-            <button className={s.button}  onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
+            <button disabled={!name.trim()} className={`${s.button} ${!name.trim() ? s.disabledButton : ''}`}  onClick={addUser}>add</button>
+
         </div>
     )
 }

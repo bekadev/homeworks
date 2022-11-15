@@ -3,5 +3,40 @@
 }
 
 .error {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    width: 372px;
+    height: 36px;
+    outline: none;
+}
+
+
+.input {
+    margin-left: 20px;
+}
+.span_people {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.button {
+    padding: 5px 24px;
+    width: 78px;
+    height: 36px;
+    background: #0066CC;
+    border-radius: 3px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 36px;
+}
+
+.disabledButton {
+    opacity: 0.5;
 }

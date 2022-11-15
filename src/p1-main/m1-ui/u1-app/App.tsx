@@ -3,6 +3,8 @@ import s from './App.module.css'
 import HW1 from '../../../p2-homeworks/h1/HW1'
 import HW2 from "../../../p2-homeworks/h2/HW2";
 import HW3 from "../../../p2-homeworks/h3/HW3";
+import HW4 from '../../../p2-homeworks/h4/HW4';
+import {MicroTasksInputComponent} from '../../../MicroTasks/MicroTasksInputComponent';
 
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
         fontWeight: '600',
         fontSize: '22px',
         lineHeight: '27px',
-        color: '#000000'
+        color: '#000000',
+        marginLeft: '20px'
     }
     const styleArow = {
         border: '1px solid #D9D9D9',
@@ -31,8 +34,17 @@ function App() {
             <div style={styeTitle}>Hometask № 3</div>
             <div style={styleArow}></div>
             <HW3/>
-            {/*<HW4/>*/}
+            <div style={styleArow}></div>
+            <div style={styeTitle}>Hometask № 4</div>
+            <div style={styleArow}></div>
+            <HW4/>
+            <div style={styleArow}></div>
+            <div style={styeTitle}>Hometask № 5</div>
+            <div style={styleArow}></div>
             {/*<HW5/>*/}
+
+            {/*Testing code for microtasks*/}
+            <MicroTasksInputComponent />
 
         </div>
     )
